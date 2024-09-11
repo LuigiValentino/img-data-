@@ -1,0 +1,29 @@
+Proyecto: img-data - Editor de Metadatos de Imágenes
+
+    img-data es una aplicación de escritorio desarrollada en Python que permite a los usuarios visualizar, modificar y guardar los metadatos EXIF de imágenes JPEG. Con una interfaz gráfica moderna impulsada por la librería ttkbootstrap, los usuarios pueden cargar imágenes, visualizar la información EXIF, editar campos como la marca de la cámara, el modelo, la fecha de captura, las coordenadas GPS, entre otros, y guardar las modificaciones en una nueva imagen.
+
+Características Principales
+    Cargar y visualizar imágenes JPEG: El usuario puede cargar una imagen y ver sus metadatos.
+
+        Modificar metadatos EXIF: Se pueden modificar campos como:
+        Marca de la cámara
+        Modelo
+        Fecha
+        Resolución X e Y
+        Orientación
+        Coordenadas GPS (latitud y longitud)
+        Software utilizado
+        Autor de la imagen
+        Información de Copyright
+
+    Guardar imagen modificada: Una vez editados los metadatos, el usuario puede guardar la imagen con los nuevos datos en un archivo JPEG.
+
+Tecnologías Utilizadas
+    Python: Lenguaje principal del proyecto.
+    tkinter: Biblioteca de Python para crear la interfaz gráfica.
+    ttkbootstrap: Extensión de ttk que proporciona estilos modernos y temas para la interfaz gráfica.
+    Pillow: Biblioteca Python para cargar, manipular y guardar imágenes.
+    piexif: Biblioteca Python utilizada para leer, modificar y guardar los datos EXIF de las imágenes.
+
+
+    
